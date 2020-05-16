@@ -6,8 +6,8 @@ for(i=0;i<3;i++){
   let newHeader = document.createElement('h1')
   newHeader.setAttribute('id','victory')
   newHeader.innerHTML = "Ebraheem"
-  if(i==3){
-    newHeader.innerHTML = "Ebraheem is the hero"
+  if(i==2){
+    newHeader.innerHTML = 'Ebraheem is the champion'
     
   }body.appendChild(newHeader)
 }
