@@ -1,7 +1,7 @@
 // Write your code here!
 let body =document.querySelector('body')
 let main =document.querySelector('#main')
-
+body.removeChild(main)
 for(i=0;i<3;i++){
   let newHeader = document.createElement('h1')
   newHeader.innerHTML = "Ebraheem"
@@ -12,4 +12,3 @@ for(i=0;i<3;i++){
 }
 
 
-body.removeChild(main)
