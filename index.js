@@ -2,7 +2,7 @@
 let body =document.querySelector('body')
 let main =document.querySelector('#main')
 
-for(i=0;i<=3;i++){
+for(i=0;i<3;i++){
   let newHeader = document.createElement('h1')
   newHeader.innerHTML = "Ebraheem"
   if(i==3){
