@@ -2,7 +2,7 @@
 let body =document.querySelector('body')
 let main =document.querySelector('#main')
 body.removeChild(main)
-let newHeader = document.createElement('header')
+let newHeader = document.createElement('h1')
 newHeader.setAttribute('id','victory')
 newHeader.innerHTML = "Ebraheem"
 
